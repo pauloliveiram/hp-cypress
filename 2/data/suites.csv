@@ -1,0 +1,7 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Wed Aug 23 16:51:22 GMT 2023","Wed Aug 23 16:51:22 GMT 2023","413","","Validar o endpoint /characters/staff","","Validar o endpoint /characters/staff","Validar o método GET","Validar o método GET",""
+"passed","Wed Aug 23 16:51:18 GMT 2023","Wed Aug 23 16:51:19 GMT 2023","323","","Validar o endpoint /spells","","Validar o endpoint /spells","Validar o método GET","Validar o método GET",""
+"passed","Wed Aug 23 16:51:12 GMT 2023","Wed Aug 23 16:51:13 GMT 2023","557","","Validar o endpoint /characters","","Validar o endpoint /characters","Validar o método GET","Validar o método GET",""
+"passed","Wed Aug 23 16:51:25 GMT 2023","Wed Aug 23 16:51:25 GMT 2023","493","","Validar o endpoint /characters/students","","Validar o endpoint /characters/students","Validar o método GET","Validar o método GET",""
+"passed","Wed Aug 23 16:51:09 GMT 2023","Wed Aug 23 16:51:09 GMT 2023","507","","Validar o endpoint /character/{id}","","Validar o endpoint /character/{id}","Validar o método GET","Validar o método GET",""
+"passed","Wed Aug 23 16:51:15 GMT 2023","Wed Aug 23 16:51:16 GMT 2023","489","","Validar o endpoint /characters/house/{house}","","Validar o endpoint /characters/house/{house}","Validar o método GET","Validar o método GET",""
