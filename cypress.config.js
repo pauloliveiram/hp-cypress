@@ -1,5 +1,5 @@
 const { defineConfig } = require("cypress");
-const allureWriter = require('@shelex/cypress-allure-plugin/writer');
+const allureWriter = require("@shelex/cypress-allure-plugin/writer");
 
 module.exports = defineConfig({
   e2e: {
@@ -8,7 +8,7 @@ module.exports = defineConfig({
       return config;
     },
     baseUrl: "https://hp-api.onrender.com/api",
-    specPattern: "cypress/api-tests/*.spec.{js,jsx,ts,tsx}"
+    specPattern: "cypress/api-tests/*.spec.{js,jsx,ts,tsx}",
   },
   video: false,
 });

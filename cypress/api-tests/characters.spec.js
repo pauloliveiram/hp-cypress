@@ -1,7 +1,7 @@
-describe('Validar o endpoint /characters', () => {
-  it('Validar o método GET', () => {
-    cy.request("/characters").as("getAllCharacters")
-    cy.get("@getAllCharacters").then(response => {
+describe("Validar o endpoint /characters", () => {
+  it("Validar o método GET", () => {
+    cy.request("/characters").as("getAllCharacters");
+    cy.get("@getAllCharacters").then((response) => {
       expect(response.status).to.eql(200);
       expect(response.body[0].id).to.be.a("string");
       expect(response.body[0].name).to.be.a("string");
@@ -26,6 +26,6 @@ describe('Validar o endpoint /characters', () => {
       expect(response.body[0].alternate_actors).to.be.an("array");
       expect(response.body[0].alive).to.be.a("boolean");
       expect(response.body[0].image).to.be.a("string");
-    })
-  })
-})
+    });
+  });
+});

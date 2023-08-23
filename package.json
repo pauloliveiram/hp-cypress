@@ -13,6 +13,8 @@
   "devDependencies": {
     "@shelex/cypress-allure-plugin": "^2.40.0",
     "cypress": "^12.17.4",
-    "mocha-allure-reporter": "^1.4.0"
+    "eslint-plugin-cypress": "^2.14.0",
+    "mocha-allure-reporter": "^1.4.0",
+    "prettier": "3.0.2"
   }
 }
