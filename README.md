@@ -7,7 +7,7 @@ Essa é uma aplicação de testes automatizados em uma API com informações sob
 Além disso, foi desenvolvida uma pipeline no Github Actions para que os testes sejam executados e o relatórios sejam gerados a cada push ou pull request na branch main do repositório.
 
 ## Link da API
-https://the-one-api.dev/
+https://hp-api.onrender.com/
 
 ## Tecnologias utilizadas
 
